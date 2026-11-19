@@ -22,7 +22,7 @@ class CitaMedicaTest {
                 EstadoCita.PROGRAMADA
         );
 
-        assertNotNull(cita);
+        assertNotNull(cita, "La cita debe crearse");
         assertEquals("CIT-001", cita.getCodigo());
         assertEquals(paciente, cita.getPaciente());
         assertEquals(doctor, cita.getDoctor());
