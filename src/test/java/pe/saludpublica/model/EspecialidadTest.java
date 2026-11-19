@@ -10,7 +10,7 @@ class EspecialidadTest {
     @DisplayName("ESP-001: Crear especialidad con datos válidos")
     void shouldCreateSpecialtyWithValidData() {
         Especialidad esp = new Especialidad("Cardiología", "Especialidad del corazón y sistema circulatorio");
-        assertNotNull(esp);
+        assertNotNull(esp, "La especialidad debe crearse");
         assertEquals("Cardiología", esp.getNombre());
         assertEquals("Especialidad del corazón y sistema circulatorio", esp.getDescripcion());
     }
@@ -27,7 +27,7 @@ class EspecialidadTest {
     @DisplayName("ESP-003: Verificar valores de atributos")
     void shouldReturnCorrectSpecialtyAttributes() {
         Especialidad esp = new Especialidad("Pediatría", "Atención médica para niños");
-        assertAll("Valores de especialidad",
+        assertAll("Todos los atributos deben conservar su valor",
                 () -> assertEquals("Pediatría", esp.getNombre()),
                 () -> assertEquals("Atención médica para niños", esp.getDescripcion())
         );
