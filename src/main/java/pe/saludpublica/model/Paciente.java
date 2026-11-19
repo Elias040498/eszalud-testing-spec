@@ -1,7 +1,5 @@
 package pe.saludpublica.model;
 
-import static pe.saludpublica.model.ValidacionUtil.requireNonNull;
-
 public class Paciente {
     private final String documento;
     private final String nombres;
@@ -10,9 +8,9 @@ public class Paciente {
     private final String correo;
 
     public Paciente(String documento, String nombres, String apellidos, String telefono, String correo) {
-        requireNonNull(documento, "documento");
-        requireNonNull(nombres, "nombres");
-        requireNonNull(apellidos, "apellidos");
+        if (documento == null) throw new IllegalArgumentException("El documento es obligatorio");
+        if (nombres == null) throw new IllegalArgumentException("Los nombres son obligatorios");
+        if (apellidos == null) throw new IllegalArgumentException("Los apellidos son obligatorios");
 
         this.documento = documento;
         this.nombres = nombres;
