@@ -16,7 +16,7 @@ class PacienteTest {
                 "987654321",
                 "ana@mail.com"
         );
-        assertNotNull(paciente);
+        assertNotNull(paciente, "El paciente debe crearse");
         assertEquals("12345678", paciente.getDocumento());
         assertEquals("Ana", paciente.getNombres());
         assertEquals("Pérez", paciente.getApellidos());
@@ -58,7 +58,7 @@ class PacienteTest {
                 "912345678",
                 "luis@mail.com"
         );
-        assertAll("Valores de atributos",
+        assertAll("Todos los atributos deben conservar su valor",
                 () -> assertEquals("87654321", paciente.getDocumento()),
                 () -> assertEquals("Luis", paciente.getNombres()),
                 () -> assertEquals("Gómez", paciente.getApellidos()),
