@@ -16,7 +16,7 @@ class DoctorTest {
                 "CMP-12345",
                 "esp-cardiologia-01"
         );
-        assertNotNull(doctor);
+        assertNotNull(doctor, "El doctor debe crearse");
         assertEquals("43219876", doctor.getDocumento());
         assertEquals("Carlos", doctor.getNombres());
         assertEquals("Ruiz", doctor.getApellidos());
@@ -66,7 +66,7 @@ class DoctorTest {
                 "CMP-98765",
                 "esp-pediatria-02"
         );
-        assertAll("Valores de doctor",
+        assertAll("Todos los atributos deben conservar su valor",
                 () -> assertEquals("11223344", doctor.getDocumento()),
                 () -> assertEquals("María", doctor.getNombres()),
                 () -> assertEquals("Díaz", doctor.getApellidos()),
