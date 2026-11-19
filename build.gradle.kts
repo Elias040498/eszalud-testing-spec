@@ -1,13 +1,13 @@
 plugins {
-    id("java")
+    java
 }
 
 group = "pe.saludpublica"
 version = "1.0"
 
 java {
-    sourceCompatibility = JavaVersion.VERSION_25
-    targetCompatibility = JavaVersion.VERSION_25
+    sourceCompatibility = JavaVersion.VERSION_24
+    targetCompatibility = JavaVersion.VERSION_24
 }
 
 repositories {
