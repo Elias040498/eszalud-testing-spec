@@ -1,0 +1,50 @@
+[{
+  "_id": {
+    "$oid": "6af7271e501cca046a16604f"
+  },
+  "documento": "45678912",
+  "nombres": "Roberto Enrique",
+  "apellidos": "Salazar Mendoza",
+  "colegiatura": "CMP 085432",
+  "specialtyId": "6af71da3501cca046a166045"
+},
+{
+  "_id": {
+    "$oid": "6af72faf90f1d08b4673bfa3"
+  },
+  "documento": "72345681",
+  "nombres": "Patricia Elena",
+  "apellidos": "Vargas Ríos",
+  "colegiatura": "CMP 092718",
+  "specialtyId": "6af71da3501cca046a166046"
+},
+{
+  "_id": {
+    "$oid": "6af72fdd90f1d08b4673bfa4"
+  },
+  "documento": "61452378",
+  "nombres": "Jorge Alberto",
+  "apellidos": "Castillo Torres",
+  "colegiatura": "CMP 076543",
+  "specialtyId": "6af71da3501cca046a166046"
+},
+{
+  "_id": {
+    "$oid": "6af7301390f1d08b4673bfa5"
+  },
+  "documento": "80123456",
+  "nombres": "Claudia Beatriz",
+  "apellidos": "Ramírez Flores",
+  "colegiatura": "CMP 103256",
+  "specialtyId": "6af71da3501cca046a166048"
+},
+{
+  "_id": {
+    "$oid": "6af730a190f1d08b4673bfa7"
+  },
+  "documento": "73891245",
+  "nombres": "Miguel Ángel",
+  "apellidos": "Gonzales Chávez",
+  "colegiatura": "CMP 089321",
+  "specialtyId": "6af71da3501cca046a166045"
+}]

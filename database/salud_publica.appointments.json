@@ -1,0 +1,33 @@
+[{
+  "_id": {
+    "$oid": "6af72f2590f1d08b4673bfa2"
+  },
+  "patientId": "6af71e0b501cca046a166049",
+  "doctorId": "6af7271e501cca046a16604f",
+  "specialtyId": "6af71da3501cca046a166045",
+  "fechaHora": "2026-11-23 16:30",
+  "motivo": "Dolor abdominal",
+  "estado": "PROGRAMADA"
+},
+{
+  "_id": {
+    "$oid": "6af7306490f1d08b4673bfa6"
+  },
+  "patientId": "6af71f6a501cca046a16604b",
+  "doctorId": "6af7301390f1d08b4673bfa5",
+  "specialtyId": "6af71da3501cca046a166048",
+  "fechaHora": "2026-11-26 10:05",
+  "motivo": "Acné excesivo",
+  "estado": "PROGRAMADA"
+},
+{
+  "_id": {
+    "$oid": "6af7316490f1d08b4673bfa8"
+  },
+  "patientId": "6af71f49501cca046a16604a",
+  "doctorId": "6af730a190f1d08b4673bfa7",
+  "specialtyId": "6af71da3501cca046a166045",
+  "fechaHora": "2026-10-28 11:35",
+  "motivo": "Control posterior a consulta de emergencia",
+  "estado": "ATENDIDA"
+}]

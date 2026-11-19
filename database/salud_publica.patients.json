@@ -1,0 +1,60 @@
+[{
+  "_id": {
+    "$oid": "6af71e0b501cca046a166049"
+  },
+  "documento": "18205786",
+  "nombres": "Alex Américo",
+  "apellidos": "Marín Méndez",
+  "telefono": "942270712",
+  "correo": "alexmarinmendez@gmail.com"
+},
+{
+  "_id": {
+    "$oid": "6af71f49501cca046a16604a"
+  },
+  "documento": "45678912",
+  "nombres": "Carlos Eduardo",
+  "apellidos": "Ramírez Torres",
+  "telefono": "987654321",
+  "correo": "carlos.ramirez@example.com"
+},
+{
+  "_id": {
+    "$oid": "6af71f6a501cca046a16604b"
+  },
+  "documento": "72345681",
+  "nombres": "María Fernanda",
+  "apellidos": "Gonzales Rojas",
+  "telefono": "965432187",
+  "correo": "maria.gonzales@example.com"
+},
+{
+  "_id": {
+    "$oid": "6af7258e501cca046a16604c"
+  },
+  "documento": "61452378",
+  "nombres": "José Antonio",
+  "apellidos": "Castillo Mendoza",
+  "telefono": "912345678",
+  "correo": "jose.castillo@example.com"
+},
+{
+  "_id": {
+    "$oid": "6af725ad501cca046a16604d"
+  },
+  "documento": "80123456",
+  "nombres": "Lucía Isabel",
+  "apellidos": "Vargas Salazar",
+  "telefono": "956781234",
+  "correo": "lucia.vargas@example.com"
+},
+{
+  "_id": {
+    "$oid": "6af725d7501cca046a16604e"
+  },
+  "documento": "73891245",
+  "nombres": "Pedro Miguel",
+  "apellidos": "Flores Chávez",
+  "telefono": "978123456",
+  "correo": "pedro.flores@example.com"
+}]

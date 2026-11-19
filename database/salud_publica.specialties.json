@@ -1,0 +1,28 @@
+[{
+  "_id": {
+    "$oid": "6af71da3501cca046a166045"
+  },
+  "nombre": "Medicina general",
+  "descripcion": "Atención primaria"
+},
+{
+  "_id": {
+    "$oid": "6af71da3501cca046a166046"
+  },
+  "nombre": "Pediatría",
+  "descripcion": "Atención de niños y adolescentes"
+},
+{
+  "_id": {
+    "$oid": "6af71da3501cca046a166047"
+  },
+  "nombre": "Cardiología",
+  "descripcion": "Salud cardiovascular"
+},
+{
+  "_id": {
+    "$oid": "6af71da3501cca046a166048"
+  },
+  "nombre": "Dermatología",
+  "descripcion": "Enfermedades de la piel"
+}]
